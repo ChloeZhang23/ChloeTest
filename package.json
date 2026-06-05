@@ -26,6 +26,7 @@
   "homepage": "https://github.com/ChloeZhang23/ChloeTest#readme",
   "devDependencies": {
     "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.1",
     "typescript": "^6.0.3"
   }
 }

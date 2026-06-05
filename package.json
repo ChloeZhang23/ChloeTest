@@ -1,0 +1,31 @@
+{
+  "name": "chloe-test",
+  "version": "1.0.0",
+  "description": "Playwright + TypeScript automation test framework with multi-language support.",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:en": "TEST_LANGUAGES=en-US playwright test",
+    "test:zh": "TEST_LANGUAGES=zh-CN playwright test",
+    "test:i18n": "TEST_LANGUAGES=en-US,zh-CN playwright test",
+    "report": "playwright show-report",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChloeZhang23/ChloeTest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChloeZhang23/ChloeTest/issues"
+  },
+  "homepage": "https://github.com/ChloeZhang23/ChloeTest#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "typescript": "^6.0.3"
+  }
+}

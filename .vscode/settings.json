@@ -1,0 +1,9 @@
+{
+  "testing.automaticallyOpenPeekView": "failureAnywhere",
+  "testing.defaultGutterClickAction": "run",
+  "testing.followRunningTest": true,
+  "testing.gutterEnabled": true,
+  "testing.openTesting": "openOnTestStart",
+  "testing.saveBeforeTest": true,
+  "testExplorer.useNativeTesting": true
+}
